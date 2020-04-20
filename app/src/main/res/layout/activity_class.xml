@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ClassActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#03A9F4"
+        android:text="Choose Your Class"
+        android:textSize="25sp"/>
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="181dp"
+        android:layout_height="64dp"
+        android:text="Class 12"
+        android:layout_below="@+id/textView"/>
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="181dp"
+        android:layout_height="64dp"
+        android:text="Class 11"
+        android:layout_below="@+id/textView"
+        android:layout_toRightOf="@+id/button12"/>
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="181dp"
+        android:layout_height="64dp"
+        android:text="Class 10"
+        android:layout_below="@+id/button12"/>
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="181dp"
+        android:layout_height="64dp"
+        android:text="Class 9"
+        android:layout_below="@+id/button12"
+        android:layout_toRightOf="@+id/button10"/>
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="181dp"
+        android:layout_height="64dp"
+        android:text="Class 8"
+        android:layout_below="@+id/button10"/>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="181dp"
+        android:layout_height="64dp"
+        android:text="Class 7"
+        android:layout_below="@+id/button10"
+        android:layout_toRightOf="@+id/button8"/>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="181dp"
+        android:layout_height="64dp"
+        android:text="Class 6"
+        android:layout_below="@+id/button8"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="181dp"
+        android:layout_height="64dp"
+        android:text="Class 5"
+        android:layout_below="@+id/button8"
+        android:layout_toRightOf="@+id/button6"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="181dp"
+        android:layout_height="64dp"
+        android:text="Class 4"
+        android:layout_below="@+id/button6" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="181dp"
+        android:layout_height="64dp"
+        android:text="Class 3"
+        android:layout_below="@+id/button6"
+        android:layout_toRightOf="@+id/button4"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="181dp"
+        android:layout_height="64dp"
+        android:text="Class 2"
+        android:layout_below="@+id/button4" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="181dp"
+        android:layout_height="64dp"
+        android:text="Class 1"
+        android:layout_below="@+id/button4"
+        android:layout_toRightOf="@+id/button2"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChapterChoose">
+    <Button
+        android:id="@+id/chapter1"
+        android:layout_width="181dp"
+        android:layout_height="64dp"
+        android:text="chapter1"
+        android:layout_below="@+id/subjctView"/>
+
+    <Button
+        android:id="@+id/chapter2"
+        android:layout_width="181dp"
+        android:layout_height="64dp"
+        android:text="chapter2"
+        android:layout_below="@+id/subjctView"
+        android:layout_toRightOf="@+id/chapter1"/>
+
+    <Button
+        android:id="@+id/chapter3"
+        android:layout_width="181dp"
+        android:layout_height="64dp"
+        android:text="chapter3"
+        android:layout_below="@+id/chapter2"/>
+
+    <Button
+        android:id="@+id/chapter4"
+        android:layout_width="181dp"
+        android:layout_height="64dp"
+        android:text="chapter4"
+        android:layout_below="@+id/chapter2"
+        android:layout_toRightOf="@+id/chapter3"/>
+
+
+</RelativeLayout>
